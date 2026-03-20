@@ -42,9 +42,22 @@ body {
   background: var(--card-bg);
 }
 
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   border-bottom: none;
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .site-title {
